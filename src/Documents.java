@@ -16,7 +16,7 @@ public class Documents {
             line = bufferedReader.readLine();
             int lineLength = line.length();
             if (line.contains("docnum") && lineLength==15)   {
-                 System.out.println(line.length() + "строка номер  " + count + " начинается с docum и длинна номера равна 15 символам, №   " + line);
+                 System.out.println("строка номер  " + count + " начинается с docum и длинна номера равна 15 символам, №   " + line);
                 }
             if (line.contains("contract") && lineLength==15) {
                 System.out.println("строка номер  "+count + "  начинается с contract и длинна номер равна 15 символам, №   " + line);}
